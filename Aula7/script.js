@@ -1,17 +1,20 @@
 class Cafes {
-    constructor(nome, mesa, tamanho, tipo) {
+    constructor(nome, torra, tamanho, tipo) {
         this.nome = nome;
-        this.mesa = mesa;
-        this.tamanho = tamanho;
-        this.tipo = tipo;
+        this.torra = torra;
+        this.preco = preco;
     }
         descricao(){
-            console.log(`nome = ${this.nome} mesa = ${this.mesa}`)
+            console.log(`nome = ${this.nome} torra = ${this.torra} preco = ${this.preco}`)
         }
     }
 
-let coado = new Cafes ("coado", 2, "medio", "descafeinado");
-let capuccino = new Cafes ("capuccino", 3, "medio", "avela");
+let panna = new Cafes ("panna", "clara", 15.9);
+let capuccinoEspecial = new Cafes ("capuccinoEspecial", "media", 15.9);
+let capuccinoItaliano = new Cafes ("capuccinoItaliano", "escura", 15.9);
+let capuccinoSucre = new Cafes ("capuccinoSucre", "escura", 15.9);
+let macchiato = new Cafes ("macchiato", "mediaEscura", 15.9);
+let moccha = new Cafes ("moccha", "clara", 15.9)
 
-console.log(coado.descricao())
-console.log(capuccino.descricao())
+pedidos = []
+pedidos.pull
